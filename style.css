@@ -1,0 +1,43 @@
+body {
+  background-color: rgb(202, 91, 91);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.hola {
+  color: rgb(240, 240, 91);
+  transition: all 0.5s ease-in-out;
+}
+
+.hola:hover {
+  transform: scale(1.2);
+  color: blueviolet;
+  cursor: pointer;
+}
+
+.parrafo {
+  color: rgb(240, 240, 91);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  padding: 40px;
+  border: 2px solid rgb(39, 39, 39);
+  border-radius: 10%;
+  background-color: rgb(236, 69, 69);
+  box-shadow: 2px 2px 10px black;
+  transition: all 0.5s ease-in-out;
+}
+
+.container:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+  box-shadow: 4px 4px 20px rgb(85, 85, 85);
+}
